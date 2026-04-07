@@ -33,7 +33,7 @@ export default function About() {
               estética avançada
             </h2>
             <div className="ornament-line mb-8 w-full" />
-            <p className="text-cream-200/60 font-sans font-300 text-sm leading-relaxed mb-8">
+            <p className="text-cream-200/60 font-sans font-300 text-sm leading-relaxed mb-8 font-poppins">
               Especialista em harmonização facial, rejuvenescimento e cirurgias estéticas avançadas,
               com atuação consolidada em Fortaleza. Cada plano é totalmente personalizado — porque
               você não é "mais uma" paciente.

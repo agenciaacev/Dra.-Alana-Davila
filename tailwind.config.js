@@ -7,8 +7,10 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        serif: ['"Cormorant Garamond"', 'serif'],
-        sans: ['"Raleway"', 'sans-serif'],
+        sans: ['Poppins', 'sans-serif'],
+        serif: ['Aphrodite', 'cursive'],
+        poppins: ['Poppins', 'sans-serif'],
+        aphrodite: ['Aphrodite', 'cursive'],
       },
       colors: {
         cream: {
@@ -18,10 +20,10 @@ export default {
           300: '#E8D9C2',
         },
         gold: {
-          300: '#D4AF7A',
-          400: '#C9A05A',
-          500: '#B8893A',
-          600: '#9A7030',
+          300: '#E8B568',
+          400: '#E8B568',
+          500: '#E8B568',
+          600: '#E8B568',
         },
         blush: {
           100: '#F5ECE8',

@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'Aphrodite';
+  src: url('/fonts/Aphrodite.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -11,19 +18,69 @@
     @apply bg-cream-50 text-charcoal-800 font-sans;
     -webkit-font-smoothing: antialiased;
   }
+
+  p,
+  .subheadline {
+    font-family: 'Poppins', sans-serif !important;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .font-serif,
+  .heading-serif {
+    font-family: 'Aphrodite', cursive !important;
+  }
 }
 
 @layer components {
+  /* BOTÃO GOLD (ATUALIZADO) */
   .btn-gold {
-    @apply inline-block bg-gold-400 text-cream-50 font-sans font-500 tracking-widest uppercase text-xs px-8 py-4 transition-all duration-300 hover:bg-gold-500 hover:shadow-lg hover:shadow-gold-400/20 active:scale-95;
+  @apply inline-block font-sans font-medium tracking-widest uppercase text-xs px-8 py-4 transition-all duration-300 active:scale-95;
+
+  background: linear-gradient(
+    135deg,
+    #f8e4b0,
+    #dbb972,
+    #b8924d
+  );
+
+  color: #2D2823;
+  box-shadow: 0 4px 15px rgba(219, 185, 114, 0.4);
+}
+
+  .btn-gold:hover {
+  background: linear-gradient(
+    135deg,
+    #ffe7a3 0%,
+    #e5c27a 25%,
+    #d1aa5e 50%,
+    #b8924d 75%,
+    #ffe7a3 100%
+  );
+
+  box-shadow: 0 8px 25px rgba(219, 185, 114, 0.45);
+  transform: translateY(-2px) scale(1.02);
+}
+
+  /* BOTÃO OUTLINE (ATUALIZADO) */
+  .btn-outline {
+    @apply inline-block font-sans font-500 tracking-widest uppercase text-xs px-8 py-4 transition-all duration-300 active:scale-95;
+    border: 1px solid #c9b589;
+    color: #c9b589;
   }
 
-  .btn-outline {
-    @apply inline-block border border-gold-400 text-gold-500 font-sans font-500 tracking-widest uppercase text-xs px-8 py-4 transition-all duration-300 hover:bg-gold-400 hover:text-cream-50 active:scale-95;
+  .btn-outline:hover {
+    background-color: #E9B569;
+    color: #2C2722;
   }
 
   .section-tag {
-    @apply text-gold-400 font-sans tracking-[0.3em] uppercase text-xs font-500;
+    @apply font-sans tracking-[0.3em] uppercase text-xs font-500;
+    color: #E9B569;
   }
 
   .heading-serif {
@@ -87,11 +144,15 @@
 
 /* Gold line decorator */
 .gold-divider {
-  @apply block w-12 h-px bg-gold-400 mx-auto my-6;
+  display: block;
+  width: 3rem;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #E9B569, transparent);
+  margin: 1.5rem auto;
 }
 
 /* Smooth line */
 .ornament-line {
-  background: linear-gradient(90deg, transparent, #C9A05A, transparent);
+  background: linear-gradient(90deg, transparent, #E9B569, transparent);
   height: 1px;
 }
