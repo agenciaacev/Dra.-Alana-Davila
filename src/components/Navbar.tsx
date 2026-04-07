@@ -1,4 +1,6 @@
 import { useState, useEffect } from "react";
+
+// @ts-ignore
 import Imglogo from "../assets/logo-dr-alana-preto.png";
 
 const WA_LINK =

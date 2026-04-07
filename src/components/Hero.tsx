@@ -1,6 +1,7 @@
 const WA_LINK =
   "https://wa.me/5585999999999?text=Olá!%20Vim%20do%20site%20da%20Dra.%20Alana%20e%20gostaria%20de%20agendar%20uma%20avaliação.";
-import backgroundImage from "../assets/FOTO-353.jpg";
+// @ts-ignore
+  import backgroundImage from "../assets/dr-hero.jpg";
 
 export default function Hero() {
   return (
