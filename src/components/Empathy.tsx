@@ -1,15 +1,18 @@
+// @ts-ignore
+import imgEmpathy from '../assets/img-empatgy.png'
+
 const WA_LINK = 'https://wa.me/5585999999999?text=Olá!%20Vim%20do%20site%20da%20Dra.%20Alana%20e%20gostaria%20de%20agendar%20uma%20avaliação.'
 
 const pains = [
-  'As linhas do rosto começaram a incomodar',
-  'A flacidez tirou a firmeza que você tinha',
-  'Seu corpo já não acompanha sua autoestima',
+  'As linhas se tornam mais evidentes',
+  'A firmeza da pele já não é a mesma',
+  'E o corpo parece não acompanhar a sua autoestima',
 ]
 
 const fears = [
-  { icon: '✦', text: 'Medo de resultados artificiais' },
-  { icon: '✦', text: 'Não confia em qualquer profissional' },
-  { icon: '✦', text: 'Não sabe por onde começar' },
+  { icon: '✦', text: 'O receio de um resultado artificial' },
+  { icon: '✦', text: 'A dificuldade em confiar no profissional certo' },
+  { icon: '✦', text: 'A dúvida sobre por onde começar' },
 ]
 
 export default function Empathy() {
@@ -22,7 +25,7 @@ export default function Empathy() {
           <div className="relative order-2 md:order-1">
             <div className="relative overflow-hidden" style={{ paddingBottom: '120%' }}>
               <img
-                src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=700&q=80&fit=crop&crop=center"
+                src={imgEmpathy}
                 alt="Mulher refletindo sobre sua beleza"
                 className="absolute inset-0 w-full h-full object-cover grayscale-[20%]"
               />
@@ -48,14 +51,14 @@ export default function Empathy() {
             <span className="section-tag block mb-5">Você se identifica?</span>
 
             <h2 className="heading-serif text-3xl md:text-4xl mb-8">
-              Você já se olhou no espelho e sentiu que sua aparência não reflete mais{' '}
-              <em className="italic text-gold-500">quem você é?</em>
+              Já se olhou no espelho e sentiu que sua imagem já não traduz{' '}
+              <em className="italic text-gold-500">quem você é hoje?</em>
             </h2>
 
             <div className="ornament-line mb-8 w-full" />
 
             <p className="text-charcoal-700/100 font-300 text-sm mb-6 font-sans leading-relaxed">
-              Talvez você reconheça algum desses sentimentos:
+              Com o tempo, alguns sinais passam a incomodar de forma silenciosa:
             </p>
 
             <ul className="space-y-3 mb-10">
@@ -69,7 +72,7 @@ export default function Empathy() {
 
             <div className="bg-blush-100 border-l-2 border-gold-400 px-6 py-5 mb-10">
               <p className="text-charcoal-800 font-sans text-base font-normal italic mb-4">
-                E o pior… você até pensou em fazer algo, mas:
+               E, mesmo desejando mudar, algo ainda te impede de dar o próximo passo...
               </p>
               <ul className="space-y-2">
                 {fears.map((f) => (

@@ -44,12 +44,12 @@ export default function Hero() {
           </div>
 
           {/* Headline */}
-          <h1 className="heading-serif text-4xl md:text-5xl lg:text-6xl mb-6 animate-fade-up-delay-1 leading-tight">
-            Redescubra a sua{" "}
+          <h1 className="heading-serif text-3xl md:text-4xl lg:text-5xl mb-6 animate-fade-up-delay-1 leading-tight">
+           REDESCUBRA A SUA{" "}
             <em className="font-serif italic font-300 text-gold-500 whitespace-nowrap">
-              melhor versão
+              MELHOR VERSÃO
             </em>{" "}
-            com elegância, naturalidade e resultados que encantam.
+            COM ELEGÂNCIA, NATURALIZADE E RESULTADOS QUE ENCANTAM.
           </h1>
 
           {/* Subheadline */}
