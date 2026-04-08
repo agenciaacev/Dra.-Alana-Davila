@@ -71,7 +71,7 @@ export default function Objections() {
           <p className="text-charcoal-700/50 font-sans font-300 text-sm mb-6">
             Ainda tem dúvidas? Fale diretamente com a equipe da Dra. Alana.
           </p>
-          <a href={WA_LINK} target="_blank" rel="noopener noreferrer" className="btn-gold">
+          <a href={WA_LINK} target="_blank" rel="noopener noreferrer" className="btn-gold rounded-[25px]">
             Falar com a Equipe
           </a>
         </div>

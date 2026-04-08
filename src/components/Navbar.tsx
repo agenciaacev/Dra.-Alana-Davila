@@ -103,7 +103,7 @@ export default function Navbar() {
             href={WA_LINK}
             target="_blank"
             rel="noopener noreferrer"
-            className="btn-gold text-center mt-2 text-[10px]"
+            className="btn-gold text-center mt-2 text-[10px] rounded-[25px]"
           >
             Agendar Avaliação
           </a>

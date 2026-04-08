@@ -32,7 +32,7 @@ export default function Empathy() {
             </div>
 
             {/* Floating quote card */}
-            <div className="absolute -bottom-6 -right-4 md:-right-8 bg-cream-50 border border-cream-200 p-5 max-w-[200px] shadow-xl">
+            {/* <div className="absolute -bottom-6 -right-4 md:-right-8 bg-cream-50 border border-cream-200 p-5 max-w-[200px] shadow-xl">
               <p className="font-serif italic text-charcoal-700 text-sm leading-relaxed">
                 "Você não está sozinha."
               </p>
@@ -40,7 +40,7 @@ export default function Empathy() {
               <span className="text-gold-400 text-[10px] tracking-widest uppercase font-sans font-500 mt-2 block">
                 Dra. Alana Dávila
               </span>
-            </div>
+            </div> */}
           </div>
 
           {/* Right: copy */}
@@ -54,13 +54,13 @@ export default function Empathy() {
 
             <div className="ornament-line mb-8 w-full" />
 
-            <p className="text-charcoal-700/70 font-300 text-sm mb-6 font-sans leading-relaxed">
+            <p className="text-charcoal-700/100 font-300 text-sm mb-6 font-sans leading-relaxed">
               Talvez você reconheça algum desses sentimentos:
             </p>
 
             <ul className="space-y-3 mb-10">
               {pains.map((pain) => (
-                <li key={pain} className="flex items-start gap-3 text-charcoal-700/80 font-sans font-300 text-sm">
+                <li key={pain} className="flex items-start gap-3 text-charcoal-700/100 font-sans font-300 text-sm">
                   <span className="text-gold-400 mt-0.5 text-base leading-none flex-shrink-0">—</span>
                   {pain}
                 </li>
@@ -68,12 +68,12 @@ export default function Empathy() {
             </ul>
 
             <div className="bg-blush-100 border-l-2 border-gold-400 px-6 py-5 mb-10">
-              <p className="text-charcoal-800 font-serif text-base font-300 italic mb-4">
+              <p className="text-charcoal-800 font-sans text-base font-normal italic mb-4">
                 E o pior… você até pensou em fazer algo, mas:
               </p>
               <ul className="space-y-2">
                 {fears.map((f) => (
-                  <li key={f.text} className="flex items-center gap-3 text-charcoal-700/70 font-sans font-300 text-sm">
+                  <li key={f.text} className="flex items-center gap-3 text-charcoal-700/100 font-sans font-300 text-sm">
                     <span className="text-gold-400 text-[8px]">{f.icon}</span>
                     {f.text}
                   </li>
@@ -81,7 +81,7 @@ export default function Empathy() {
               </ul>
             </div>
 
-            <a href={WA_LINK} target="_blank" rel="noopener noreferrer" className="btn-gold">
+            <a href={WA_LINK} target="_blank" rel="noopener noreferrer" className="btn-gold rounded-[25px]">
               Quero Transformação Agora
             </a>
           </div>

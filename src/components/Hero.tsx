@@ -1,7 +1,7 @@
 const WA_LINK =
   "https://wa.me/5585999999999?text=Olá!%20Vim%20do%20site%20da%20Dra.%20Alana%20e%20gostaria%20de%20agendar%20uma%20avaliação.";
 // @ts-ignore
-  import backgroundImage from "../assets/dr-hero.jpg";
+import backgroundImage from "../assets/dr-hero.jpg";
 
 export default function Hero() {
   return (
@@ -40,25 +40,23 @@ export default function Hero() {
           {/* Tag */}
           <div className="flex items-center gap-3 mb-8 animate-fade-up">
             <span className="block w-8 h-px bg-gold-400" />
-            <span className="section-tag">
-              Médica - Cirurgia Plástica
-            </span>
+            <span className="section-tag">Médica - Cirurgiã Plástica</span>
           </div>
 
           {/* Headline */}
           <h1 className="heading-serif text-4xl md:text-5xl lg:text-6xl mb-6 animate-fade-up-delay-1 leading-tight">
-            Redescubra sua{" "}
+            Redescubra a sua{" "}
             <em className="font-serif italic font-300 text-gold-500 whitespace-nowrap">
               melhor versão
             </em>{" "}
-            com naturalidade e resultados que impressionam
+            com elegância, naturalidade e resultados que encantam.
           </h1>
 
           {/* Subheadline */}
           <p className="text-charcoal-700/100 font-sans font-300 text-base leading-relaxed mb-10 animate-fade-up-delay-2 max-w-md">
-            Tratamentos estéticos e cirurgias avançadas com uma das
-            especialistas mais renomadas de Fortaleza focados em realçar sua
-            beleza sem exageros.
+            Tratamentos estéticos e cirurgias avançadas conduzidos por uma das
+            especialistas mais respeitadas de Fortaleza, com foco em valorizar a
+            sua beleza de forma sutil, harmônica e sem excessos.
           </p>
 
           {/* CTAs */}
@@ -77,7 +75,7 @@ export default function Hero() {
             >
               Ver Procedimentos
             </a>
-          </div> 
+          </div>
         </div>
       </div>
 

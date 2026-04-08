@@ -131,7 +131,7 @@ export default function Procedures() {
         </div>
 
         <div className="text-center">
-          <a href={WA_LINK} target="_blank" rel="noopener noreferrer" className="btn-gold">
+          <a href={WA_LINK} target="_blank" rel="noopener noreferrer" className="btn-gold rounded-[25px]">
             Quero Minha Avaliação
           </a>
         </div>
