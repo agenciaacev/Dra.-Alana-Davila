@@ -30,7 +30,7 @@ export default function Navbar() {
           <img
             src={Imglogo}
             alt="Dra. Alana Dávila"
-            className="h-10 w-auto object-contain"
+            className="h-8 w-auto object-contain"
           />
         </div>
 
