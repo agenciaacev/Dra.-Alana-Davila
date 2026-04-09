@@ -1,22 +1,22 @@
 const WA_LINK =
   "https://wa.me/5585999999999?text=Olá!%20Vim%20do%20site%20da%20Dra.%20Alana%20e%20gostaria%20de%20agendar%20uma%20avaliação.";
-
-  import imgCirurgia from '../assets/dr-foto-cirurgia.png'
+//@ts-ignore
+import imgCirurgia from "../assets/dr-foto-cirurgia.png";
 const pillars = [
   {
     number: "01",
-    title: "Técnica Refinada",
-    desc: "Cirurgia plástica e estética com precisão e atualização constante nos melhores protocolos.",
+    title: "Experiência que gera confiança",
+    desc: "Atendimento de alto nível, personalizado, com precisão e segurança em cada detalhe.",
   },
   {
     number: "02",
-    title: "Visão Estética",
-    desc: "Olhar sofisticado para equilíbrio e proporção — nunca exageros, sempre elegância.",
+    title: "Acompanhamento completo",
+    desc: "Suporte contínuo em todas as etapas, do pré ao pós-operatório, com cuidado e segurança.",
   },
   {
     number: "03",
-    title: "Foco em Naturalidade",
-    desc: "O resultado ideal é aquele que ninguém percebe — só você sente a diferença.",
+    title: "Tecnologia e excelência",
+    desc: "Métodos modernos e tecnologia de ponta para resultados precisos, seguros e naturais.",
   },
 ];
 
@@ -34,19 +34,18 @@ export default function About() {
               A solução
             </span>
             <h2 className="font-serif font-300 text-cream-50 text-3xl md:text-4xl lg:text-5xl leading-tight mb-6">
-              Dra. Alana D'avila {" "}
+              Dra. Alana D'avila{" "}
               <em className="italic text-gold-300">excelência </em>
-               em cirurgia plástica
+              em cirurgia plástica
             </h2>
             <div className="ornament-line mb-8 w-full" />
             <p className="text-cream-200/60 font-sans font-300 text-sm leading-relaxed mb-8 font-poppins">
-              Médica cirurgiã plástica com atuação consolidada em Fortaleza,
-              reconhecida por sua precisão técnica e olhar estético refinado.
-              Referência em cirurgia plástica, contorno corporal e prótese
-              mamária, conduz cada caso com planejamento minucioso e abordagem
-              personalizada, valorizando a harmonia, a naturalidade e a
-              singularidade de cada paciente, com segurança e sofisticação em
-              cada detalhe.
+              Sou médica cirurgiã plástica em Fortaleza, com prática consolidada
+              e compromisso com a excelência em cada detalhe. Desenvolvo
+              abordagens exclusivas e acompanho de forma criteriosa todas as
+              etapas do processo, com precisão técnica, sensibilidade estética e
+              máxima segurança, para entregar resultados harmônicos, elegantes e
+              duradouros, sempre respeitando a essência de cada paciente.
             </p>
             <a
               href={WA_LINK}
@@ -70,16 +69,6 @@ export default function About() {
                 className="absolute inset-0 w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-charcoal-800/60 to-transparent" />
-            </div>
-
-            {/* Credential badge */}
-            <div className="absolute bottom-6 left-6 right-6 bg-charcoal-900/80 backdrop-blur-sm border border-gold-400/20 px-5 py-4">
-              <p className="text-gold-300 text-[10px] tracking-[0.3em] uppercase font-sans font-500 mb-1">
-                Especialidade reconhecida
-              </p>
-              <p className="text-cream-50 font-serif font-300 text-sm">
-                Estética Avançada · Fortaleza – CE
-              </p>
             </div>
 
             {/* Decorative frames */}

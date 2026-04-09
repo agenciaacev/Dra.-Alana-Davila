@@ -44,8 +44,8 @@ export default function Hero() {
           </div>
 
           {/* Headline */}
-          <h1 className="heading-serif text-3xl md:text-4xl lg:text-5xl mb-6 animate-fade-up-delay-1 leading-tight">
-           REDESCUBRA A SUA{" "}
+          <h1 className="heading-serif text-3xl text-center md:text-4xl lg:text-5xl md:text-left mb-6 animate-fade-up-delay-1 leading-tight">
+            REDESCUBRA A SUA{" "}
             <em className="font-serif italic font-300 text-gold-500 whitespace-nowrap">
               MELHOR VERSÃO
             </em>{" "}
@@ -53,10 +53,11 @@ export default function Hero() {
           </h1>
 
           {/* Subheadline */}
-          <p className="text-charcoal-700/100 font-sans font-300 text-base leading-relaxed mb-10 animate-fade-up-delay-2 max-w-md">
-            Tratamentos estéticos e cirurgias avançadas conduzidos por uma das
-            especialistas mais respeitadas de Fortaleza, com foco em valorizar a
-            sua beleza de forma sutil, harmônica e sem excessos.
+          <p className="text-charcoal-700/100 text-center font-sans font-300 text-base leading-relaxed mb-10 animate-fade-up-delay-2 max-w-md md:text-left">
+            Cirurgias plásticas e procedimentos estéticos avançados conduzidos
+            por uma das especialistas mais respeitadas de Fortaleza, com foco em
+            resultados elegantes, seguros e duradouros, valorizando a sua beleza
+            com naturalidade, harmonia e precisão técnica.
           </p>
 
           {/* CTAs */}
