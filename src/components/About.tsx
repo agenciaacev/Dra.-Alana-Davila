@@ -47,14 +47,16 @@ export default function About() {
               máxima segurança, para entregar resultados harmônicos, elegantes e
               duradouros, sempre respeitando a essência de cada paciente.
             </p>
-            <a
-              href={WA_LINK}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block border border-gold-300/60 text-gold-300 font-sans font-500 tracking-widest uppercase text-xs px-8 py-4 transition-all duration-300 hover:bg-gold-400 hover:text-cream-50 hover:border-gold-400 rounded-[25px]"
-            >
-              Quero Minha Avaliação
-            </a>
+            <div className="text-center md:text-left">
+              <a
+                href={WA_LINK}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block border border-gold-300/60 text-gold-300 font-sans font-500 tracking-widest uppercase text-xs px-8 py-4 transition-all duration-300 hover:bg-gold-400 hover:text-cream-50 hover:border-gold-400 rounded-[25px]"
+              >
+                Quero Minha Avaliação
+              </a>
+            </div>
           </div>
 
           {/* Doctor image */}

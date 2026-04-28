@@ -21,39 +21,40 @@ export default function Empathy() {
       <div className="max-w-6xl mx-auto px-6 md:px-12">
         <div className="grid md:grid-cols-2 gap-16 items-center">
 
-          {/* Left: Image placeholder */}
-          <div className="relative order-2 md:order-1">
+          {/* Coluna esquerda: foto — visível só no desktop */}
+          <div className="hidden md:block relative">
             <div className="relative overflow-hidden" style={{ paddingBottom: '120%' }}>
               <img
                 src={imgEmpathy}
                 alt="Mulher refletindo sobre sua beleza"
                 className="absolute inset-0 w-full h-full object-cover grayscale-[20%]"
               />
-              {/* Decorative corner frames */}
               <div className="absolute top-4 left-4 w-12 h-12 border-t border-l border-gold-400/60" />
               <div className="absolute bottom-4 right-4 w-12 h-12 border-b border-r border-gold-400/60" />
             </div>
-
-            {/* Floating quote card */}
-            {/* <div className="absolute -bottom-6 -right-4 md:-right-8 bg-cream-50 border border-cream-200 p-5 max-w-[200px] shadow-xl">
-              <p className="font-serif italic text-charcoal-700 text-sm leading-relaxed">
-                "Você não está sozinha."
-              </p>
-              <span className="block w-6 h-px bg-gold-400 mt-3" />
-              <span className="text-gold-400 text-[10px] tracking-widest uppercase font-sans font-500 mt-2 block">
-                Dra. Alana Dávila
-              </span>
-            </div> */}
           </div>
 
-          {/* Right: copy */}
-          <div className="order-1 md:order-2">
+          {/* Coluna direita: conteúdo */}
+          <div>
             <span className="section-tag block mb-5">Você se identifica?</span>
 
             <h2 className="heading-serif text-3xl md:text-4xl mb-8">
               Já se olhou no espelho e sentiu que sua imagem já não traduz{' '}
               <em className="italic text-gold-500">quem você é hoje?</em>
             </h2>
+
+            {/* Foto — visível só no mobile, entre o título e o resto */}
+            <div className="md:hidden relative mb-8">
+              <div className="relative overflow-hidden" style={{ paddingBottom: '120%' }}>
+                <img
+                  src={imgEmpathy}
+                  alt="Mulher refletindo sobre sua beleza"
+                  className="absolute inset-0 w-full h-full object-cover grayscale-[20%]"
+                />
+                <div className="absolute top-4 left-4 w-12 h-12 border-t border-l border-gold-400/60" />
+                <div className="absolute bottom-4 right-4 w-12 h-12 border-b border-r border-gold-400/60" />
+              </div>
+            </div>
 
             <div className="ornament-line mb-8 w-full" />
 
@@ -84,9 +85,11 @@ export default function Empathy() {
               </ul>
             </div>
 
-            <a href={WA_LINK} target="_blank" rel="noopener noreferrer" className="btn-gold rounded-[25px]">
-              Quero Transformação Agora
-            </a>
+            <div className="text-center md:text-left">
+              <a href={WA_LINK} target="_blank" rel="noopener noreferrer" className="btn-gold rounded-[25px]">
+                Quero Transformação Agora
+              </a>
+            </div>
           </div>
         </div>
       </div>

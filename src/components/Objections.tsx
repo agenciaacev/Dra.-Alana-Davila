@@ -48,7 +48,7 @@ export default function Objections() {
                 onClick={() => setOpen(open === i ? null : i)}
                 className="w-full flex items-start justify-between gap-4 px-8 py-6 text-left group"
               >
-                <span className="font-serif italic text-charcoal-800 text-base md:text-lg font-300 group-hover:text-gold-600 transition-colors duration-200">
+                <span className="font-sans text-charcoal-800 text-base md:text-lg font-400 group-hover:text-gold-600 transition-colors duration-200">
                   {item.q}
                 </span>
                 <span className={`text-gold-400 flex-shrink-0 text-lg transition-transform duration-300 mt-0.5 ${open === i ? 'rotate-45' : ''}`}>
