@@ -36,6 +36,20 @@ export default {
           900: '#1A1510',
         },
       },
+      keyframes: {
+        'slide-in-right': {
+          from: { transform: 'translateX(48px)', opacity: '0' },
+          to:   { transform: 'translateX(0)',    opacity: '1' },
+        },
+        'slide-in-left': {
+          from: { transform: 'translateX(-48px)', opacity: '0' },
+          to:   { transform: 'translateX(0)',      opacity: '1' },
+        },
+      },
+      animation: {
+        'slide-in-right': 'slide-in-right 0.55s cubic-bezier(0.25,0.46,0.45,0.94) both',
+        'slide-in-left':  'slide-in-left  0.55s cubic-bezier(0.25,0.46,0.45,0.94) both',
+      },
     },
   },
   plugins: [],
