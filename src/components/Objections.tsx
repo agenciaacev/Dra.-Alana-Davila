@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-const WA_LINK = 'https://wa.me/5585999999999?text=Olá!%20Vim%20do%20site%20da%20Dra.%20Alana%20e%20gostaria%20de%20agendar%20uma%20avaliação.'
+const WA_LINK = 'https://wa.me/5585992032233?text=Olá!%20Vim%20do%20site%20da%20Dra.%20Alana%20e%20gostaria%20de%20agendar%20uma%20avaliação.'
 
 const objections = [
   {
@@ -55,7 +55,7 @@ export default function Objections() {
                   +
                 </span>
               </button>
-              <div className={`overflow-hidden transition-all duration-300 ${open === i ? 'max-h-40' : 'max-h-0'}`}>
+              <div className={`overflow-hidden transition-all duration-300 ${open === i ? 'max-h-96' : 'max-h-0'}`}>
                 <div className="px-8 pb-7 border-t border-cream-200">
                   <span className="block w-6 h-px bg-gold-400/50 mb-4 mt-4" />
                   <p className="text-charcoal-700/70 font-sans font-300 text-sm leading-relaxed">

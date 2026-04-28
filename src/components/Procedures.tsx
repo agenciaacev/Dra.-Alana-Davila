@@ -6,7 +6,7 @@ import cilicone from '../assets/protege-mama.webp'
 import abdome from '../assets/abdominoplastia.webp'
 import perna from '../assets/perna.webp'
 
-const WA_LINK = 'https://wa.me/5585999999999?text=Olá!%20Vim%20do%20site%20da%20Dra.%20Alana%20e%20gostaria%20de%20agendar%20uma%20avaliação.'
+const WA_LINK = 'https://wa.me/5585992032233?text=Olá!%20Vim%20do%20site%20da%20Dra.%20Alana%20e%20gostaria%20de%20agendar%20uma%20avaliação.'
 
 const procedures = [
   {

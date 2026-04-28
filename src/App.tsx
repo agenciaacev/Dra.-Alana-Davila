@@ -9,7 +9,7 @@ import Objections from './components/Objections'
 import { FinalCTA, Footer } from './components/CTA'
 
 // Floating WhatsApp button
-const WA_LINK = 'https://wa.me/5585999999999?text=Olá!%20Vim%20do%20site%20da%20Dra.%20Alana%20e%20gostaria%20de%20agendar%20uma%20avaliação.'
+const WA_LINK = 'https://wa.me/5585992032233?text=Olá!%20Vim%20do%20site%20da%20Dra.%20Alana%20e%20gostaria%20de%20agendar%20uma%20avaliação.'
 
 function WhatsAppFloat() {
   return (

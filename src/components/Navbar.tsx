@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import Imglogo from "../assets/logo-dr-alana-preto.webp";
 
 const WA_LINK =
-  "https://wa.me/5585999999999?text=Olá!%20Vim%20do%20site%20da%20Dra.%20Alana%20e%20gostaria%20de%20agendar%20uma%20avaliação.";
+  "https://wa.me/5585992032233?text=Olá!%20Vim%20do%20site%20da%20Dra.%20Alana%20e%20gostaria%20de%20agendar%20uma%20avaliação.";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
