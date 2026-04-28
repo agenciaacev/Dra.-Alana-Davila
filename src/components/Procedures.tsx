@@ -1,4 +1,10 @@
 import { useState } from 'react'
+import botox from '../assets/botox.webp'
+import blefaroplastia from '../assets/blefaroplastia.webp'
+import liftingFacial from '../assets/facelifitng.webp'
+import cilicone from '../assets/protege-mama.webp'
+import abdome from '../assets/abdominoplastia.webp'
+import perna from '../assets/perna.webp'
 
 const WA_LINK = 'https://wa.me/5585999999999?text=Olá!%20Vim%20do%20site%20da%20Dra.%20Alana%20e%20gostaria%20de%20agendar%20uma%20avaliação.'
 
@@ -8,7 +14,7 @@ const procedures = [
     category: 'Facial',
     title: 'Botox & Rejuvenescimento',
     desc: 'Suavização de linhas e rugas com técnica natural. Resultado discreto e expressão preservada.',
-    image: 'https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=600&q=80&fit=crop&crop=center',
+    image: botox,
     tag: 'Mais procurado',
   },
   {
@@ -16,7 +22,7 @@ const procedures = [
     category: 'Facial',
     title: 'Blefaroplastia',
     desc: 'Cirurgia das pálpebras para um olhar mais jovem, descansado e expressivo.',
-    image: 'https://images.unsplash.com/photo-1621798016705-290da649a3de?w=600&q=80&fit=crop&crop=center',
+    image: blefaroplastia,
     tag: 'Rejuvenescimento',
   },
   {
@@ -24,7 +30,7 @@ const procedures = [
     category: 'Facial',
     title: 'Lifting Facial',
     desc: 'Tratamento da flacidez com técnicas avançadas para firmeza e contorno definido.',
-    image: 'https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=600&q=80&fit=crop',
+    image: liftingFacial,
     tag: 'Firmeza',
   },
   {
@@ -32,7 +38,7 @@ const procedures = [
     category: 'Corporal',
     title: 'Mastopexia com Prótese',
     desc: 'Levantamento de mama com ou sem prótese para restaurar volume, simetria e autoestima.',
-    image: 'https://images.unsplash.com/photo-1631815588090-d4bfec5b1ccb?w=600&q=80&fit=crop',
+    image: cilicone,
     tag: 'Transformação',
   },
   {
@@ -40,7 +46,7 @@ const procedures = [
     category: 'Corporal',
     title: 'Lipo para Lipedema',
     desc: 'Procedimento especializado no tratamento do lipedema com resultados funcionais e estéticos.',
-    image: 'https://images.unsplash.com/photo-1559757175-5700dde675bc?w=600&q=80&fit=crop',
+    image: perna,
     tag: 'Saúde & Estética',
   },
   {
@@ -48,7 +54,7 @@ const procedures = [
     category: 'Corporal',
     title: 'Abdominoplastia',
     desc: 'Redefinição do abdômen com remoção de excesso de pele, flacidez e lipoaspiração combinada.',
-    image: 'https://images.unsplash.com/photo-1574680096145-d05b474e2155?w=600&q=80&fit=crop',
+    image: abdome,
     tag: 'Completo',
   },
 ]
